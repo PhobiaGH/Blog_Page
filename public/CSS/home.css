@@ -57,3 +57,164 @@ header {
 .date {
     font-size: 1.2rem;
 }
+
+@media only screen and (max-width: 920px) and (min-width: 660px) {
+    .intro {
+        font-size: 3rem;
+    }
+
+    .articles {
+        padding: 3em;
+    }
+
+    .grid-item {
+        margin: 2em;
+    }
+
+    .grid-item:hover {
+        cursor: pointer;
+        margin: 3em;
+    }
+    
+}
+
+@media only screen and (max-width: 659px) and (min-width: 480px) {
+    .intro {
+        font-size: 2rem;
+    }
+
+    .articles {
+        padding: 1em;
+    }
+
+    .grid-item {
+        margin: 1em;
+        padding: 20px;
+    }
+
+    .grid-item:hover {
+        cursor: pointer;
+        margin: 2em;
+    }
+    
+}
+
+@media only screen and (max-width: 479px) and (min-width: 382px) {
+    .intro {
+        font-size: 1.6rem;
+    }
+
+    .articles {
+        padding: 1em;
+    }
+
+    .grid-item {
+        margin: 0.6em;
+        padding: 20px;
+    }
+
+    .grid-item:hover {
+        cursor: pointer;
+        margin: 1em;
+    }
+
+    .title {
+        font-size: 1.2rem;
+    }
+    
+    .date {
+        font-size: 1rem;
+    }
+    
+    
+}
+
+@media only screen and (max-width: 381px) and (min-width: 294px) {
+    .intro {
+        font-size: 1.2rem;
+    }
+
+    .articles {
+        padding: 1em;
+    }
+
+    .grid-item {
+        margin: 0.2em;
+        padding: 15px;
+    }
+
+    .grid-item:hover {
+        cursor: pointer;
+        margin: 0.6em;
+    }
+
+    .title {
+        font-size: 1rem;
+    }
+    
+    .date {
+        font-size: 0.8rem;
+    }
+    
+    
+}
+
+@media only screen and (max-width: 293px) and (min-width: 212px) {
+    .intro {
+        font-size: 1rem;
+    }
+
+    .articles {
+        padding: 0.4em;
+    }
+
+    .grid-item {
+        margin: 0.1em;
+        padding: 8px;
+    }
+
+    .grid-item:hover {
+        cursor: pointer;
+        margin: 0.3em;
+    }
+
+    .title {
+        font-size: 0.8rem;
+    }
+    
+    .date {
+        font-size: 0.6rem;
+    }
+    
+    
+}
+
+@media only screen and (max-width: 211px) and (min-width: 10px) {
+    .intro {
+        font-size: 0.6rem;
+    }
+
+    .articles {
+        padding: 0.1em;
+    }
+
+    .grid-item {
+        margin: 0.4em;
+        padding: 4px;
+    }
+
+    .grid-item:hover {
+        cursor: pointer;
+        margin: 0.3em;
+    }
+
+    .title {
+        font-size: 0.6rem;
+    }
+    
+    .date {
+        font-size: 0.4rem;
+    }
+    
+    
+}
